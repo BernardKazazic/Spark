@@ -112,7 +112,7 @@ public class Main {
             String[] split = row.split(",");
             Integer.parseInt(split[5]);
             return true;
-        } catch (NumberFormatException ex) {
+        } catch (Exception ex) {
             return false;
         }
     }
