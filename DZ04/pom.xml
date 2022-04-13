@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>DZ04_pokusaj3</artifactId>
+    <artifactId>DZ04</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -24,6 +24,12 @@
             <artifactId>spark-sql_2.13</artifactId>
             <version>3.2.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.13</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>
