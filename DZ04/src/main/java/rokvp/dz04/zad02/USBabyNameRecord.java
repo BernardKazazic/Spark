@@ -1,7 +1,5 @@
 package rokvp.dz04.zad02;
 
-import java.io.Serializable;
-
 public class USBabyNameRecord {
     private final String id;
     private final String name;
